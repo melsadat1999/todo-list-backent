@@ -1,4 +1,4 @@
 export class CreateTodoListDto {
-  id: number;
-  titel: string;
+  title: string;
+  isFinish: boolean;
 }

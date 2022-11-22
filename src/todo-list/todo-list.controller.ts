@@ -19,7 +19,6 @@ export class TodoListController {
   create(@Body() createTodoListDto: CreateTodoListDto) {
     return this.todoListService.create(createTodoListDto);
   }
-
   @Get()
   findAll() {
     return this.todoListService.findAll();
